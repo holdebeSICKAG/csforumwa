@@ -13,7 +13,7 @@ helloWorldPopup = WA.room.onEnterZone('myZone', () => {
             popup.close();
         }
     }]);
-}]);
+});
 
 // Close the popup when we leave the zone.
 WA.room.onLeaveZone('myZone', () => {
