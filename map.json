@@ -243,7 +243,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":"myscript.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"2021.03.23",
