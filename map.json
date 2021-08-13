@@ -233,6 +233,22 @@
                  "width":184,
                  "x":16,
                  "y":1576
+                }, 
+                {
+                 "height":19,
+                 "id":3,
+                 "name":"welcomeText",
+                 "rotation":0,
+                 "text":
+                    {
+                     "text":"Welcome",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":32,
+                 "y":1671.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -265,7 +281,7 @@
          "y":0
         }],
  "nextlayerid":22,
- "nextobjectid":3,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "properties":[
         {
