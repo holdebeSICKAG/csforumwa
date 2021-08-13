@@ -229,6 +229,12 @@
                  "y":1576
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"name",
+                 "type":"string",
+                 "value":"popupRectangle"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
