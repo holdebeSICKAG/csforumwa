@@ -1,7 +1,7 @@
 WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 
 
-let helloWorldPopup;
+var helloWorldPopup;
 
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.room.onEnterZone('myZone', () => {
