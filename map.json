@@ -76,7 +76,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -190,7 +190,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -215,12 +215,18 @@
         {
          "draworder":"topdown",
          "id":21,
-         "name":"popupRectangle",
+         "name":"popup",
          "objects":[
                 {
                  "height":69,
                  "id":1,
                  "name":"popupRectangle",
+                 "properties":[
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"popupRectangle"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -229,12 +235,6 @@
                  "y":1576
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"name",
-                 "type":"string",
-                 "value":"popupRectangle"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
