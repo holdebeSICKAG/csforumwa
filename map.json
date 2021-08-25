@@ -117,6 +117,17 @@
          "id":22,
          "name":"speaker_main_hall",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"mainSpeaker"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":80,
@@ -343,7 +354,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":23,
+ "nextlayerid":24,
  "nextobjectid":12,
  "orientation":"orthogonal",
  "properties":[
