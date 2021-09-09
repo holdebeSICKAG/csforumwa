@@ -235,6 +235,12 @@
          "id":28,
          "name":"myZone",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"myZone"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":80,
