@@ -19,7 +19,7 @@ helloWorldPopup = WA.room.onEnterZone('myZone', () => {
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
-        };
+        }
     }]);
 });
 
@@ -27,4 +27,3 @@ helloWorldPopup = WA.room.onEnterZone('myZone', () => {
 WA.room.onLeaveZone('myZone', () => {
     helloWorldPopup.close();
 });
-
