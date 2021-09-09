@@ -1,15 +1,10 @@
 //WA.chat.sendChatMessage('Hello world', 'Mr Robot');
  
-WA.ui.openPopup(targetObject:"myPopUp", message: "Helas!", buttons: ButtonDescriptor[]): Popup
+
 
 var helloWorldPopup;
-
-class Popup {
-    /**
-     * Closes the popup
-     */
-    close() {};
-}
+ 
+//WA.ui.openPopup(targetObject:"myPopUp", message: "Helas!", buttons: ButtonDescriptor[]): Popup;
 
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.room.onEnterZone('myZone', () => {
