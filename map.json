@@ -235,15 +235,15 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":94,
+                 "height":137,
                  "id":14,
-                 "name":"popUp0Welcome",
+                 "name":"myZone",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":61,
                  "x":381,
-                 "y":1788
+                 "y":1765
                 }],
          "opacity":1,
          "type":"objectgroup",
