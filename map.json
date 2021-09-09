@@ -165,7 +165,7 @@
                  "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -233,10 +233,21 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":94,
+                 "id":14,
+                 "name":"popUp0Welcome",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":381,
+                 "y":1788
+                }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -253,7 +264,7 @@
                  "value":3
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -261,7 +272,7 @@
         {
          "draworder":"topdown",
          "id":21,
-         "name":"popup",
+         "name":"Intro_Text",
          "objects":[
                 {
                  "height":177,
@@ -401,8 +412,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":27,
- "nextobjectid":12,
+ "nextlayerid":28,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "properties":[
         {
