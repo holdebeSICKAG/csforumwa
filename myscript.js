@@ -25,8 +25,11 @@ WA.room.onLeaveZone('myZone', () => {
 });
 */
 
-let schedule_txt = "asd";
+let schedule_txt;
 WA.chat.onChatMessage((message => {
-    if (message== "schedule"):
-		WA.chat.sendChatMessage(schedule_txt, 'Schedule');;
+    if (message == "schedule")
+	{
+		schedule_txt = "asd";
+		WA.chat.sendChatMessage(schedule_txt, 'Schedule');
+	}
 }));
