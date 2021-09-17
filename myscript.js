@@ -21,7 +21,7 @@ helloWorldPopup = WA.room.onEnterZone('myZone', () => {
 // Close the popup when we leave the zone.
 
 WA.room.onLeaveZone('myZone', () => {
-    helloWorldPopup.close();
+    popup.close();
 });
 
 
