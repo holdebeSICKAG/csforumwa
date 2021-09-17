@@ -19,6 +19,14 @@ helloWorldPopup = WA.room.onEnterZone('myZone', () => {
 });
 
 // Close the popup when we leave the zone.
+/*
 WA.room.onLeaveZone('myZone', () => {
     helloWorldPopup.close();
 });
+*/
+
+let schedule_txt = "asd";
+WA.chat.onChatMessage((message => {
+    if (message== "schedule"):
+		WA.chat.sendChatMessage(schedule_txt, 'Schedule');;
+}));
