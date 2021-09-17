@@ -8,7 +8,7 @@ let helloWorldPopup;
 
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('myZone', () => {
-    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!<&szlig;>', [{
+    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!&szlig;', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
