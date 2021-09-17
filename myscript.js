@@ -25,9 +25,10 @@ WA.room.onLeaveZone('myZone', () => {
     helloWorldPopup.close();
 });
 
-
+console.log(WA);
+console.log(WA.chat);
 let schedule_txt;
-WA.chat.onChatMessage((message) => {
+WA.chat.userInputChat((message) => {
 	console.log("fu");
     if (message == "schedule")
 	{
