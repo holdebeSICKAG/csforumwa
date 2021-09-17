@@ -28,6 +28,7 @@ WA.room.onLeaveZone('myZone', () => {
 
 let schedule_txt;
 WA.chat.onChatMessage((message) => {
+	console.log("fu");
     if (message == "schedule")
 	{
 		schedule_txt = "asd";
