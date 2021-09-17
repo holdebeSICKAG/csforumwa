@@ -8,7 +8,7 @@ let helloWorldPopup;
 
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('myZone', () => {
-    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!', [{
+    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!<&szlig;>', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -25,14 +25,14 @@ WA.room.onLeaveZone('myZone', () => {
     helloWorldPopup.close();
 });
 
-console.log(WA);
-console.log(WA.chat);
+//console.log(WA);
+//console.log(WA.chat);
 let schedule_txt;
-WA.onChatMessage((message) => {
+WA.chat.onChatMessage((message) => {
 	console.log("fu");
     if (message == "schedule")
 	{
 		schedule_txt = "asd";
-		WA.chat.sendChatMessage(schedule_txt, 'Schedule');
+		WA.chat.sendChatMessage(schedule_txt, 'Admin');
 	}
 });
