@@ -7,8 +7,8 @@ let helloWorldPopup;
 //WA.ui.openPopup(targetObject:"myPopUp", message: "Helas!", buttons: ButtonDescriptor[]): Popup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterZone('myZone', () => {
-    WA.ui.openPopup("popupRectangle", 'Hello world!', [{
+WA.room.onEnterZone('myZone', () => {
+    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -21,7 +21,8 @@ helloWorldPopup = WA.room.onEnterZone('myZone', () => {
 // Close the popup when we leave the zone.
 
 WA.room.onLeaveZone('myZone', () => {
-    popup.close();
+	console.log("fu");
+    helloWorldPopup.close();
 });
 
 
