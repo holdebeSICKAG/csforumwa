@@ -2,7 +2,7 @@
  
 
 
-var helloWorldPopup;
+let helloWorldPopup;
  
 //WA.ui.openPopup(targetObject:"myPopUp", message: "Helas!", buttons: ButtonDescriptor[]): Popup;
 
