@@ -28,7 +28,7 @@ WA.room.onLeaveZone('myZone', () => {
 console.log(WA);
 console.log(WA.chat);
 let schedule_txt;
-WA.chat.userInputChat((message) => {
+WA.onChatMessage((message) => {
 	console.log("fu");
     if (message == "schedule")
 	{
