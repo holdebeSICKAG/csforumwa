@@ -36,3 +36,7 @@ WA.chat.onChatMessage((message) => {
 		WA.chat.sendChatMessage(schedule_txt, 'Admin');
 	}
 });
+
+WA.room.onEnterZone('zone_wp_psirt1', () => {
+    WA.room.showLayer("wp_psirt1")
+    });
