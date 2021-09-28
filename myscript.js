@@ -119,11 +119,12 @@ WA.room.onLeaveZone('Intro04', () => {
     Intro04PP.close();
 });
 
+	
 
-
+let Intro05PP;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('Intro05', () => {
-    Intro04PP = WA.ui.openPopup("Intro05Rect", 'Please only enter the speaker stage if you are a speaker or to ask questions after a talk. You will be streamed to the main hall auditorium area.', [{
+    Intro05PP = WA.ui.openPopup("Intro05Rect", 'Please only enter the speaker stage if you are a speaker or to ask questions after a talk. You will be streamed to the main hall auditorium area.', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -138,6 +139,26 @@ WA.room.onEnterZone('Intro05', () => {
 WA.room.onLeaveZone('Intro05', () => {
     Intro05PP.close();
 });
+
+
+
+
+
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('CoffeeFun', () => {
+    WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('CoffeeFun', () => {
+    WA.nav.closeCoWebSite();
+});
+
+
+
+// ...
+
 
 
 
