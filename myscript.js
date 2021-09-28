@@ -2,13 +2,19 @@
  
 
 
-let helloWorldPopup;
- 
-//WA.ui.openPopup(targetObject:"myPopUp", message: "Helas!", buttons: ButtonDescriptor[]): Popup;
+
+
+
+/*Introduction Popups*/
+
+
+let Intro00PP;
+let firstIntro = 0;
 
 // Open the popup when we enter a given zone
-WA.room.onEnterZone('myZone', () => {
-    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!&szlig;', [{
+WA.room.onEnterZone('Intro00', () => {
+	if(firstIntro < 5){
+    Intro01PP = WA.ui.openPopup("Intro00Rect", 'Welcome! If you want to get an introduction, please walk up. otherwise, continue to the right', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -16,18 +22,16 @@ WA.room.onEnterZone('myZone', () => {
             popup.close();
         }
     }]);
+	firstIntro += 1;
+	}
 });
 
 // Close the popup when we leave the zone.
 
-WA.room.onLeaveZone('myZone', () => {
-	console.log("fu");
-    helloWorldPopup.close();
+WA.room.onLeaveZone('Intro00', () => {
+    Intro01PP.close();
 });
 
-
-
-/*Introduction Popups*/
 
 
 let Intro01PP;
