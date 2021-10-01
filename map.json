@@ -440,7 +440,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"Poster01"
+                 "value":"Poster01Zone"
                 }],
          "type":"tilelayer",
          "visible":true,
