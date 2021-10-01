@@ -365,7 +365,7 @@
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
-                 "value":""
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
