@@ -146,6 +146,7 @@ WA.room.onLeaveZone('Intro05', () => {
 
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('CoffeeFun', () => {
+	
     WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
 });
 
