@@ -152,7 +152,7 @@ WA.room.onEnterZone('CoffeeFun', () => {
 	switch (coffeeCounter){
 		case 1:
 		WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
-		outSec = 30;
+		outSec = 35;
 		break;
 		
 		case 2:
@@ -167,17 +167,18 @@ WA.room.onEnterZone('CoffeeFun', () => {
 		
 		case 4:
 		WA.nav.openCoWebSite('https://youtube.com/embed/AYx_pAkr16M?autoplay=1');
-		outSec = 35;
+		outSec = 40;
+		outSec = 40;
 		break;
 		
 		case 5:
 		WA.nav.openCoWebSite('https://youtube.com/embed/pWMUGH5y-l4?autoplay=1');
-		outSec = 40;
+		outSec = 45;
 		break;
 		
 		case 6:
 		WA.nav.openCoWebSite('https://youtube.com/embed/50P0XS4qTOE?autoplay=1');
-		outSec = 35;
+		outSec = 40;
 		coffeeCounter = 0;
 		break;
 		
