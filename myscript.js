@@ -144,10 +144,13 @@ WA.room.onLeaveZone('Intro05', () => {
 
 
 
-// Open the popup when we enter a given zone
+// Cooffee Fun
 WA.room.onEnterZone('CoffeeFun', () => {
 	
     WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
+	setTimeout(function() {
+		WA.nav.closeCoWebSite();
+	}, (3 * 1000));
 });
 
 // Close the popup when we leave the zone.
@@ -158,7 +161,18 @@ WA.room.onLeaveZone('CoffeeFun', () => {
 
 
 
-// ...
+// Doors
+// Open doors
+WA.room.onEnterZone('doorOpener', () => {
+     WA.room.hideLayer('doors');
+
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('doorOpener', () => {
+   WA.room.showLayer('doors');
+});
 
 
 
