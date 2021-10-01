@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:0d1d3f99-5f93-473b-8d94-d4f86677266a" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:4f06c7d3-fb22-474d-a191-58cf7582f450" version="1">
     <metadata>
-        <timestamp>2021-10-01T10:53:11.534Z</timestamp>
+        <timestamp>2021-10-01T12:55:21.542Z</timestamp>
         <tools>
             <tool>
                 <vendor>CycloneDX</vendor>
@@ -23,5 +23,978 @@
             <purl>pkg:npm/workadventure-map-starter-kit@1.0.0</purl>
         </component>
     </metadata>
-    <components/>
+    <components>
+        <component type="library" bom-ref="pkg:npm/cyclonedx-bom@0.0.9">
+            <name>cyclonedx-bom</name>
+            <version>0.0.9</version>
+            <description>
+                <![CDATA[Creates CycloneDX BOMs from Node.js projects]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">f3e6048abc9bd4e046e234b5c23a47d9750365e4ece8435b11f10eec8e29a9f1c9dfb8a7cb936ae8e9ed22314db98ca216fa3ad6a5a142edb7fe3fe0756d9c28</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/cyclonedx-bom@0.0.9</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/eoftedal/cyclonedx-node-module#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/eoftedal/cyclonedx-node-module/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/eoftedal/cyclonedx-node-module.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/read-installed@4.0.3">
+            <name>read-installed</name>
+            <version>4.0.3</version>
+            <description>
+                <![CDATA[Read all the installed packages in a folder, and return a tree structure with all the data.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">ff9b8b67f187d1e4c29b9feb31f6b223acd19067</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/read-installed@4.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/read-installed#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/read-installed/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/read-installed.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/debuglog@1.0.1">
+            <name>debuglog</name>
+            <version>1.0.1</version>
+            <description>
+                <![CDATA[backport of util.debuglog from node v0.11]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">aa24ffb9ac3df9a2351837cfb2d279360cd78492</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/debuglog@1.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sam-github/node-debuglog#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sam-github/node-debuglog/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sam-github/node-debuglog.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/read-package-json@2.1.2">
+            <name>read-package-json</name>
+            <version>2.1.2</version>
+            <description>
+                <![CDATA[The thing npm uses to read package.json files with semantics and defaults and validation]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0f52a6b8b42be994894b4b56f217f7586a51970b3324e5d9dc4f1877f0cd45a33977ed7055165d1e5a4604b02ea2f8ebdbc2db5af8e95a4047331a511868f334</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/read-package-json@2.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/read-package-json#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/read-package-json/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/read-package-json.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/glob@7.1.6">
+            <name>glob</name>
+            <version>7.1.6</version>
+            <description>
+                <![CDATA[a little globber]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2f06b1c3267bd8b93bbd920db4d36bcb05f466e2f24adadd0ed69b79f64a018e59189855b607739e5b917acc4d98f8ad1344803be3b6eac5931de292236c0c04</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/glob@7.1.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/node-glob#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/node-glob/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/node-glob.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/fs.realpath@1.0.0">
+            <name>fs.realpath</name>
+            <version>1.0.0</version>
+            <description>
+                <![CDATA[Use node's fs.realpath, but fall back to the JS implementation if the native one fails]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">1504ad2523158caa40db4a2787cb01411994ea4f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/fs.realpath@1.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/fs.realpath#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/fs.realpath/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/fs.realpath.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/inflight@1.0.6">
+            <name>inflight</name>
+            <version>1.0.6</version>
+            <description>
+                <![CDATA[Add callbacks to requests in flight to avoid async duplication]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">49bd6331d7d02d0c09bc910a1075ba8165b56df9</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/inflight@1.0.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/inflight</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/inflight/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/inflight.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/once@1.4.0">
+            <name>once</name>
+            <version>1.4.0</version>
+            <description>
+                <![CDATA[Run a function exactly one time]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">583b1aa775961d4b113ac17d9c50baef9dd76bd1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/once@1.4.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/once#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/once/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/once.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/wrappy@1.0.2">
+            <name>wrappy</name>
+            <version>1.0.2</version>
+            <description>
+                <![CDATA[Callback wrapping utility]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">b5243d8f3ec1aa35f1364605bc0d1036e30ab69f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/wrappy@1.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/wrappy</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/wrappy/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/wrappy.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/inherits@2.0.4">
+            <name>inherits</name>
+            <version>2.0.4</version>
+            <description>
+                <![CDATA[Browser-friendly inheritance fully compatible with standard node.js inherits()]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/inherits@2.0.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/inherits#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/inherits/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/inherits.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/minimatch@3.0.4">
+            <name>minimatch</name>
+            <version>3.0.4</version>
+            <description>
+                <![CDATA[a glob matcher in javascript]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c891d5404872a8f2d44e0b7d07cdcf5eee96debc7832fbc7bd252f4e8a20a70a060ce510fb20eb4741d1a2dfb23827423bbbb8857de959fb7a91604172a87450</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/minimatch@3.0.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/minimatch#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/minimatch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/minimatch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/brace-expansion@1.1.11">
+            <name>brace-expansion</name>
+            <version>1.1.11</version>
+            <description>
+                <![CDATA[Brace expansion as known from sh/bash]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">882b8f1c3160ac75fb1f6bc423fe71a73d3bcd21c1d344e9ba0aa1998b5598c3bae75f260ae44ca0e60595d101974835f3bb9fa3375a1e058a71815beb5a8688</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/brace-expansion@1.1.11</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/juliangruber/brace-expansion</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/juliangruber/brace-expansion/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/juliangruber/brace-expansion.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/balanced-match@1.0.2">
+            <name>balanced-match</name>
+            <version>1.0.2</version>
+            <description>
+                <![CDATA[Match balanced character pairs, like "{" and "}"]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">de849e50ed13315ebb84dd4099b5ec2b8c9aa94eed8e21e56f144364ea47d0a5bdf82797e1b440697d009f1b74b71d8cae94695b041a3f02252121098585393f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/balanced-match@1.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/juliangruber/balanced-match</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/juliangruber/balanced-match/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/juliangruber/balanced-match.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/concat-map@0.0.1">
+            <name>concat-map</name>
+            <version>0.0.1</version>
+            <description>
+                <![CDATA[concatenative mapdashery]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">d8a96bd77fd68df7793a73036a3ba0d5405d477b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/concat-map@0.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/substack/node-concat-map#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/substack/node-concat-map/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/substack/node-concat-map.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/path-is-absolute@1.0.1">
+            <name>path-is-absolute</name>
+            <version>1.0.1</version>
+            <description>
+                <![CDATA[Node.js 0.12 path.isAbsolute() ponyfill]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/path-is-absolute@1.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sindresorhus/path-is-absolute#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sindresorhus/path-is-absolute/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sindresorhus/path-is-absolute.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/json-parse-even-better-errors@2.3.1">
+            <name>json-parse-even-better-errors</name>
+            <version>2.3.1</version>
+            <description>
+                <![CDATA[JSON.parse with context information on error]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c72170ca1ae8fc91287fa1a17b68b3d8d717a23dac96836c5abfd7b044432bfa223c27da36197938d7e9fa341d01945043420958dcc7f7321917b962f75921db</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/json-parse-even-better-errors@2.3.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/json-parse-even-better-errors#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/json-parse-even-better-errors/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/json-parse-even-better-errors.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/normalize-package-data@2.5.0">
+            <name>normalize-package-data</name>
+            <version>2.5.0</version>
+            <description>
+                <![CDATA[Normalizes data that can be found in package.json files.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ff908c3774f44785d38f80dc19a7b1a3eae8652752156ff400e39344eae3c73086d70ad65c4b066d129ebe39482fe643138b19949af9103e185b4caa9a42be78</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-2-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/normalize-package-data@2.5.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/normalize-package-data#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/normalize-package-data/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/npm/normalize-package-data.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/hosted-git-info@2.8.9">
+            <name>hosted-git-info</name>
+            <version>2.8.9</version>
+            <description>
+                <![CDATA[Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9b120301bf4bb26e83a0e27bc47fb9f97e32d4b53fe078b9d0bf42e6c22cc0adc9cd42d2e1bc24d45be374182f611e1bcd3e2db944220b5e451367f91db2ef63</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/hosted-git-info@2.8.9</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/hosted-git-info</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/hosted-git-info/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/hosted-git-info.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/resolve@1.20.0">
+            <name>resolve</name>
+            <version>1.20.0</version>
+            <description>
+                <![CDATA[resolve like require.resolve() on behalf of files asynchronously and synchronously]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c043413ede324b3838c9b1505b64d3d73310b9c3caf791d287f9ead82153655386baddbea50bd2b20b5d6b8776e98ad872bd3aef08db9b3386f1bc833c15fadc</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/resolve@1.20.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/browserify/resolve#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/browserify/resolve/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/browserify/resolve.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/is-core-module@2.2.0">
+            <name>is-core-module</name>
+            <version>2.2.0</version>
+            <description>
+                <![CDATA[Is this specifier a node.js core module?]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">5d101f01dcb263917970e5e7ee16100ea8765e68a2f8311f21c406c4afee37030784890f58ed20f26b1771bccb7be3291a847de75325a8cff6888954e2f28375</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/is-core-module@2.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/inspect-js/is-core-module</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/inspect-js/is-core-module/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/inspect-js/is-core-module.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/has@1.0.3">
+            <name>has</name>
+            <version>1.0.3</version>
+            <description>
+                <![CDATA[Object.prototype.hasOwnProperty.call shortcut]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">7f676f3b4554e8e7a3ed1916246ade8636f33008c5a79fd528fa79b53a56215e091c764ad7f0716c546d7ffb220364964ded3d71a0e656d618cd61086c14b8cf</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/has@1.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/tarruda/has</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/tarruda/has/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/tarruda/has.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/function-bind@1.1.1">
+            <name>function-bind</name>
+            <version>1.1.1</version>
+            <description>
+                <![CDATA[Implementation of Function.prototype.bind]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c88a2f033317e3db05f18979f1f482589e6cbd22ee6a26cfc5740914b98139b4ee0abd0c7f52a23e8a4633d3621638980426df69ad8587a6eb790e803554c8d0</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/function-bind@1.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/Raynos/function-bind</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/Raynos/function-bind/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/Raynos/function-bind.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/path-parse@1.0.6">
+            <name>path-parse</name>
+            <version>1.0.6</version>
+            <description>
+                <![CDATA[Node.js path.parse() ponyfill]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">19298e4f611b1eb20d05ff5247b08310bc2527c004364dd09fb3a290ae2715802edceb5edbe258355be4a401109b7fd32cd109143ff16498f3cb183728158ecf</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/path-parse@1.0.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/jbgutierrez/path-parse#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jbgutierrez/path-parse/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jbgutierrez/path-parse.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/semver@5.7.1">
+            <name>semver</name>
+            <version>5.7.1</version>
+            <description>
+                <![CDATA[The semantic version parser used by npm.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3e878625887c1cae014cefdaf537fa646def7a8fc0ed956c62b480e89f27cbd9dbdc1d55ae992e37ecfd384e707c4e69e87e0b721619b1e8224206c90fde1915</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/semver@5.7.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/node-semver#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/node-semver/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/node-semver.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/validate-npm-package-license@3.0.4">
+            <name>validate-npm-package-license</name>
+            <version>3.0.4</version>
+            <description>
+                <![CDATA[Give me a string and I'll tell you if it's a valid npm package license string]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0e92a6d948bfc4deff1d0282b69671a11581859f59d24aadca01bc5c280d43c6650e7c6e4265a18f9eba8fc7cde02bb7fc999b86c0e8edf70026ae2cf61dbb13</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/validate-npm-package-license@3.0.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/kemitchell/validate-npm-package-license.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/kemitchell/validate-npm-package-license.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/kemitchell/validate-npm-package-license.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/spdx-correct@3.1.1">
+            <name>spdx-correct</name>
+            <version>3.1.1</version>
+            <description>
+                <![CDATA[correct invalid SPDX expressions]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">70e61c516c210ae1c25e2e3d4611510b22442b788f8f5662cfd0e9562577b5b64ec170f8f50cc837732938b24dc61daac2ada524965a28c570f6a362e234c2d3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/spdx-correct@3.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/jslicense/spdx-correct.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jslicense/spdx-correct.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jslicense/spdx-correct.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/spdx-expression-parse@3.0.1">
+            <name>spdx-expression-parse</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[parse SPDX license expressions]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">71ba87ba7b105a724d13a2a155232c31e1f91ff2fd129ca66f3a93437b8bc0d08b675438f35a166a87ea1fb9cee95d3bc655f063a3e141d43621e756c7f64ae1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/spdx-expression-parse@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/jslicense/spdx-expression-parse.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jslicense/spdx-expression-parse.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jslicense/spdx-expression-parse.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/spdx-exceptions@2.3.0">
+            <name>spdx-exceptions</name>
+            <version>2.3.0</version>
+            <description>
+                <![CDATA[list of SPDX standard license exceptions]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">fed4eb60e0bb3cf2359d4020c77e21529a97bb2246f834c72539c850b1b8ac3ca08b8c6efed7e09aad5ed5c211c11cf0660a3834bc928beae270b919930e22e4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>CC-BY-3.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/spdx-exceptions@2.3.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/kemitchell/spdx-exceptions.json#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/kemitchell/spdx-exceptions.json/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/kemitchell/spdx-exceptions.json.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/spdx-license-ids@3.0.10">
+            <name>spdx-license-ids</name>
+            <version>3.0.10</version>
+            <description>
+                <![CDATA[A list of SPDX license identifiers]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">a227b7ffe80a7fb42da62b41d0b60b1137be93c4a27f3b17e0a8b1be93ac6c8e92d24462450e4c28e8a8f1e31200a435ecdd3afb074439746221dfb33b1a3484</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>CC0-1.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/spdx-license-ids@3.0.10</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/jslicense/spdx-license-ids#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jslicense/spdx-license-ids/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jslicense/spdx-license-ids.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/npm-normalize-package-bin@1.0.1">
+            <name>npm-normalize-package-bin</name>
+            <version>1.0.1</version>
+            <description>
+                <![CDATA[Turn any flavor of allowable package.json bin into a normalized object]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">10f7da7e5e892f9feb53ea2de8fde04520a93c35b95662335fde7d39bd7ec92154bae6075877a45e9c1d51970a3f90be0d2e0612d74996ec018e7b0d0e5f9f48</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/npm-normalize-package-bin@1.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/npm-normalize-package-bin#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/npm-normalize-package-bin/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/npm-normalize-package-bin.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/readdir-scoped-modules@1.1.0">
+            <name>readdir-scoped-modules</name>
+            <version>1.1.0</version>
+            <description>
+                <![CDATA[Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">6ac6a29037aa01083b2627d1b199f5349657a3d13e57097209f6e4661c322128a7aa4e73352eb6eba1d2e646a1e8fd1269028617a4a43676551d4cc7158c580f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/readdir-scoped-modules@1.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/readdir-scoped-modules</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/readdir-scoped-modules/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/readdir-scoped-modules.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/dezalgo@1.0.3">
+            <name>dezalgo</name>
+            <version>1.0.3</version>
+            <description>
+                <![CDATA[Contain async insanity so that the dark pony lord doesn't eat souls]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">7f742de066fc748bc8db820569dddce49bf0d456</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/dezalgo@1.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/dezalgo</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/dezalgo/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/dezalgo.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/asap@2.0.6">
+            <name>asap</name>
+            <version>2.0.6</version>
+            <description>
+                <![CDATA[High-priority task queue for Node.js and browsers]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">e50347611d7e690943208bbdafebcbc2fb866d46</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/asap@2.0.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/kriskowal/asap#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/kriskowal/asap/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/kriskowal/asap.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/graceful-fs@4.2.6">
+            <name>graceful-fs</name>
+            <version>4.2.6</version>
+            <description>
+                <![CDATA[A drop-in replacement for fs, making various improvements.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9d39c9e76f296eac586a78690d8b22e1177c30079a040ebbf91675d023359b76d30151440dc77902e0386ba5b9624199d623571f3673f13e9304a2de06e36b89</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/graceful-fs@4.2.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/node-graceful-fs#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/node-graceful-fs/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/node-graceful-fs.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/slide@1.1.6">
+            <name>slide</name>
+            <version>1.1.6</version>
+            <description>
+                <![CDATA[A flow control lib small enough to fit on in a slide presentation. Derived live at Oak.JS]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/slide@1.1.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/slide-flow-control#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/slide-flow-control/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/slide-flow-control.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/util-extend@1.0.3">
+            <name>util-extend</name>
+            <version>1.0.3</version>
+            <description>
+                <![CDATA[Node's internal object extension function]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">a7c216d267545169637b3b6edc6ca9119e2ff93f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/util-extend@1.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/util-extend#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/util-extend/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/util-extend.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
 </bom>
