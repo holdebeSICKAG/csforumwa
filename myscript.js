@@ -143,14 +143,55 @@ WA.room.onLeaveZone('Intro05', () => {
 
 
 
+let coffeeCounter = 0;
 
 // Cooffee Fun
 WA.room.onEnterZone('CoffeeFun', () => {
+	let outSec = 1;
+	coffeeCounter+=1;
+	switch (coffeeCounter){
+		case 1:
+		WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
+		outSec = 30;
+		break;
+		
+		case 2:
+		WA.nav.openCoWebSite('https://youtube.com/embed/DfyeXrdZZ1o?autoplay=1');
+		outSec = 60;
+		break;
+		
+		case 3:
+		WA.nav.openCoWebSite('https://youtube.com/embed/Nu8kIIL-CDA?autoplay=1');
+		outSec = 45;
+		break;
+		
+		case 4:
+		WA.nav.openCoWebSite('https://youtube.com/embed/AYx_pAkr16M?autoplay=1');
+		outSec = 35;
+		break;
+		
+		case 5:
+		WA.nav.openCoWebSite('https://youtube.com/embed/pWMUGH5y-l4?autoplay=1');
+		outSec = 40;
+		break;
+		
+		case 6:
+		WA.nav.openCoWebSite('https://youtube.com/embed/50P0XS4qTOE?autoplay=1');
+		outSec = 35;
+		coffeeCounter = 0;
+		break;
+		
+		
+		default:
+			coffeeCounter = 0;
+		break;
+	}
 	
-    WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
 	setTimeout(function() {
-		WA.nav.closeCoWebSite();
-	}, (170 * 1000));
+			WA.nav.closeCoWebSite();
+	}, (outSec * 1000));
+	
+   
 });
 
 // Close the popup when we leave the zone.
