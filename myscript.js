@@ -162,6 +162,20 @@ WA.room.onLeaveZone('CoffeeFun', () => {
 
 
 
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('Poster01Zone', () => {
+     WA.room.showLayer('Poster01');
+
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('Poster01Zone', () => {
+   WA.room.hideLayer('Poster01');
+});
+
+
+
 
 //console.log(WA);
 //console.log(WA.chat);
