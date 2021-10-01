@@ -150,7 +150,7 @@ WA.room.onEnterZone('CoffeeFun', () => {
     WA.nav.openCoWebSite('https://youtube.com/embed/RyZyfV82CDQ?autoplay=1');
 	setTimeout(function() {
 		WA.nav.closeCoWebSite();
-	}, (3 * 1000));
+	}, (170 * 1000));
 });
 
 // Close the popup when we leave the zone.
