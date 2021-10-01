@@ -103,7 +103,7 @@ let Intro04PP;
 
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('Intro04', () => {
-    Intro04PP = WA.ui.openPopup("Intro04Rect", 'Audience / Discussion Areas are highlighted: here you can joind group discussions (in small rooms) or listen to the main talks (on the main stage)', [{
+    Intro04PP = WA.ui.openPopup("Intro04Rect", 'Audience / Discussion Areas are highlighted: here you can join group discussions (in small rooms) or listen to the main talks (on the main stage)', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
